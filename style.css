@@ -1,0 +1,133 @@
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Hindi Madurai  */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url("images/mountains.png");
+  background-size: cover;
+  background-position: center;
+  object-fit: covers;
+}
+
+* {
+  font-family: poppins;
+}
+
+.container {
+  color: black;
+  background-color: whitesmoke;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  word-wrap: normal;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  margin-left: 650px;
+  margin-top: 200px;
+  position: relative;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content p {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  text-wrap: balance;
+  font-weight: 200;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.content h4 {
+  margin-left: 280px;
+  margin-top: 100px;
+  font-style: italic;
+  font-family: "Hind Madurai";
+  font-weight: 400;
+}
+
+.content h4::before {
+  content: "";
+  width: 400px;
+  background: black;
+  /*background: linear-gradient(to right, red, blue);*/
+  height: 1px;
+  position: absolute;
+  right: 50px;
+  bottom: 90px;
+  border-radius: 100px;
+}
+
+.content img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 420px;
+  top: 223px;
+}
+
+.content button {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  left: 360px;
+  top: 220px;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  position: absolute;
+  padding: 8px 0.8em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.content button:hover,
+.content button:focus {
+  background-color: #07c;
+}
+
+.content button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.content button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
